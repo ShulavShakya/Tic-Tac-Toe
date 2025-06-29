@@ -31,13 +31,13 @@ boxes.forEach((box) => {
       turnO = true;
     }
     box.disabled = true;
-    checkWinner();
     drawGame(count);
+    checkWinner();
   });
 });
 
 const drawGame = (count) => {
-  if (count == 9) {
+  if (count == 9 && !checkWinner()) {
     msg.innerText = "The Game was a draw";
     msgContainer.classList.remove("hide");
   }
