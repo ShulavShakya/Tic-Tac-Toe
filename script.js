@@ -23,9 +23,11 @@ boxes.forEach((box) => {
     count++;
     if (turnO) {
       box.innerText = "O";
+      box.style.color = "red";
       turnO = false;
     } else {
       box.innerText = "X";
+      box.style.color = "green";
       turnO = true;
     }
     box.disabled = true;
@@ -36,7 +38,7 @@ boxes.forEach((box) => {
 
 const drawGame = (count) => {
   if (count == 9) {
-    msg.innerText = `The Game was a draw`;
+    msg.innerText = "The Game was a draw";
     msgContainer.classList.remove("hide");
   }
 };
