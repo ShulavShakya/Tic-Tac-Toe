@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #548687;
+  background-color: #f3dfa2;
   text-align: center;
 }
 
@@ -33,13 +33,13 @@ body {
   font-size: 8vmin;
   box-shadow: 0 0 1 rem rgba(0, 0, 0, 0.3);
   color: #b0413e;
-  background-color: #ffffff;
+  background-color: #efe6dd;
 }
 
 #reset-btn {
   padding: 1rem;
   font-size: 1.25rem;
-  background-color: #191913;
+  background-color: #231f20;
   color: #ffffff;
   border-radius: 1rem;
   border: none;
@@ -48,14 +48,14 @@ body {
 #new-btn {
   padding: 1rem;
   font-size: 1.25rem;
-  background-color: #191913;
+  background-color: #231f20;
   color: #ffffff;
   border-radius: 1rem;
   border: none;
 }
 
 #msg {
-  color: #ffffc7;
+  color: #231f20;
   font-size: 5vmin;
 }
 
